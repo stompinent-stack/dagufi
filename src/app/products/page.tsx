@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function ProductsPage() {
-  let products = [];
+  let products: import("@/types/shopify").Product[] = [];
   try {
     products = await getAllProducts(24);
   } catch {
