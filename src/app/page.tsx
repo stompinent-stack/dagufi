@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export const revalidate = 3600;
 
 export default async function HomePage() {
-  let featuredProducts = [];
+  let featuredProducts: import("@/types/shopify").Product[] = [];
   try {
     featuredProducts = await getFeaturedProducts();
   } catch {
