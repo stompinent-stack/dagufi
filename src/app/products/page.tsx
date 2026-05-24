@@ -1,18 +1,18 @@
-// src/app/products/page.tsx
 import type { Metadata } from "next";
+import type { Product } from "@/types/shopify";
 import { getAllProducts } from "@/lib/api";
 import { ProductCard } from "@/components/ui/ProductCard";
 
 export const metadata: Metadata = {
   title: "Shop — Alle producten",
   description:
-    "Ontdek de volledige Dagufi collectie premium hondenaccessoires. Anti-trek harnassen, riemen en meer.",
+    "Ontdek de volledige Dagufi collectie premium hondenaccessoires.",
 };
 
 export const revalidate = 3600;
 
 export default async function ProductsPage() {
-  let products: import("@/types/shopify").Product[] = [];
+  let products: Product[] = [];
   try {
     products = await getAllProducts(24);
   } catch {
@@ -21,7 +21,6 @@ export default async function ProductsPage() {
 
   return (
     <div className="pt-24 md:pt-28 min-h-screen">
-      {/* Header */}
       <div className="bg-cream-50 border-b border-cream-200">
         <div className="container-wide section-padding py-12 md:py-16">
           <p className="font-body text-xs tracking-widest uppercase text-gold-500 mb-2">
@@ -38,7 +37,6 @@ export default async function ProductsPage() {
         </div>
       </div>
 
-      {/* Grid */}
       <div className="container-wide section-padding py-12 md:py-16">
         {products.length === 0 ? (
           <div className="text-center py-20 space-y-4">
