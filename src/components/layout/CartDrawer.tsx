@@ -11,7 +11,7 @@ export function CartDrawer() {
   const { cart, cartOpen, closeCart, loading, updateItem, removeItem } =
     useCartStore();
 
-  const isEmpty = !cart || cart.lines.length === 0;
+  const isEmpty = !cart || !cart.lines || cart.lines.length === 0;
 
   return (
     <>
@@ -38,7 +38,7 @@ export function CartDrawer() {
         <div className="flex items-center justify-between px-6 py-5 border-b border-cream-200">
           <h2 className="font-display text-xl font-light tracking-wide">
             Winkelwagen
-            {cart && cart.lines.length > 0 && (
+            {cart && cart.lines && cart.lines.length > 0 && (
               <span className="font-body text-sm font-normal text-charcoal-900/40 ml-2">
                 ({cart.lines.reduce((s, l) => s + l.quantity, 0)} items)
               </span>
@@ -167,7 +167,7 @@ export function CartDrawer() {
               </div>
             </div>
 
-            <a
+            
               href={cart.checkoutUrl}
               className={cn(
                 "btn-primary w-full text-center",
