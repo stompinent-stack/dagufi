@@ -109,7 +109,6 @@ export const useCartStore = create<CartStore>()(
     }),
     {
       name: "dagufi-cart",
-      // Only persist the cart ID, not the full cart state, to avoid stale data
       partialize: (state) => ({ cart: state.cart ? { id: state.cart.id, checkoutUrl: state.cart.checkoutUrl } : null }),
     }
   )
@@ -118,5 +117,5 @@ export const useCartStore = create<CartStore>()(
 // Selector helpers
 export const useCartCount = () =>
   useCartStore((s) =>
-    s.cart?.lines.reduce((sum, line) => sum + line.quantity, 0) ?? 0
+    s.cart?.lines?.reduce((sum, line) => sum + line.quantity, 0) ?? 0
   );
