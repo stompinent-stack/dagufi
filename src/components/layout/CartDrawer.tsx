@@ -15,7 +15,6 @@ export function CartDrawer() {
 
   return (
     <>
-      {/* Backdrop */}
       <div
         className={cn(
           "fixed inset-0 z-50 cart-overlay bg-charcoal-900/60 transition-opacity duration-300",
@@ -25,7 +24,6 @@ export function CartDrawer() {
         aria-hidden="true"
       />
 
-      {/* Drawer */}
       <div
         className={cn(
           "fixed top-0 right-0 z-50 h-full w-full sm:w-[420px] bg-white flex flex-col transition-transform duration-300 ease-in-out",
@@ -34,7 +32,6 @@ export function CartDrawer() {
         role="dialog"
         aria-label="Winkelwagen"
       >
-        {/* Header */}
         <div className="flex items-center justify-between px-6 py-5 border-b border-cream-200">
           <h2 className="font-display text-xl font-light tracking-wide">
             Winkelwagen
@@ -53,7 +50,6 @@ export function CartDrawer() {
           </button>
         </div>
 
-        {/* Content */}
         <div className="flex-1 overflow-y-auto">
           {isEmpty ? (
             <div className="flex flex-col items-center justify-center h-full gap-4 px-6">
@@ -73,7 +69,6 @@ export function CartDrawer() {
             <ul className="divide-y divide-cream-200">
               {cart!.lines.map((line) => (
                 <li key={line.id} className="flex gap-4 p-5">
-                  {/* Image */}
                   <div className="relative w-20 h-20 bg-cream-100 flex-shrink-0">
                     {line.image ? (
                       <Image
@@ -88,7 +83,6 @@ export function CartDrawer() {
                     )}
                   </div>
 
-                  {/* Info */}
                   <div className="flex-1 min-w-0">
                     <Link
                       href={`/products/${line.productHandle}`}
@@ -106,7 +100,6 @@ export function CartDrawer() {
                       {formatPrice(line.totalAmount, line.currencyCode)}
                     </p>
 
-                    {/* Quantity + remove */}
                     <div className="flex items-center gap-3 mt-2.5">
                       <div className="flex items-center border border-cream-300">
                         <button
@@ -149,7 +142,6 @@ export function CartDrawer() {
           )}
         </div>
 
-        {/* Footer with totals + checkout */}
         {!isEmpty && cart && (
           <div className="border-t border-cream-200 p-5 space-y-4">
             <div className="space-y-2">
