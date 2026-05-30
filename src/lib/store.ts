@@ -1,4 +1,3 @@
-// src/lib/store.ts
 // Global cart state using Zustand (persisted in localStorage)
 
 import { create } from "zustand";
@@ -109,7 +108,9 @@ export const useCartStore = create<CartStore>()(
     }),
     {
       name: "dagufi-cart",
-      partialize: (state) => ({ cart: state.cart ? { id: state.cart.id, checkoutUrl: state.cart.checkoutUrl } : null }),
+      partialize: (state) => ({
+        cart: state.cart ? { ...state.cart, lines: state.cart.lines ?? [] } : null,
+      }),
     }
   )
 );
