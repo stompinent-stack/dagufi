@@ -55,6 +55,33 @@ export default async function ProductsPage() {
           </div>
         )}
       </div>
+
+      {/* Ons verhaal */}
+      <div className="bg-charcoal-900 text-white">
+        <div className="container-wide section-padding py-16 md:py-24 max-w-2xl">
+          <p className="font-body text-xs tracking-widest uppercase text-gold-400 mb-6">
+            Ons verhaal
+          </p>
+          <p className="font-display text-3xl md:text-4xl font-light leading-relaxed mb-6">
+            Dagufi
+          </p>
+          <p className="font-body text-base text-white/70 leading-relaxed mb-4">
+            Snoop zei het ooit het best: <em>"I'm your dog."</em>
+          </p>
+          <p className="font-body text-base text-white/70 leading-relaxed mb-4">
+            Niet zomaar een uitspraak. Een belofte. Jouw hond is je trouwste vriend, je dagelijkse rust, je echte homie.
+          </p>
+          <p className="font-body text-base text-white/70 leading-relaxed mb-4">
+            Dagufi is gebouwd rond die gedachte. De naam zegt het zelf — <strong className="text-white">Da·gu·fi. Jouw hond.</strong>
+          </p>
+          <p className="font-body text-base text-white/70 leading-relaxed mb-8">
+            Wij maken alleen producten die die band versterken. Want jij en je hond? Dat is de echte connectie.
+          </p>
+          <p className="font-display text-xl text-gold-400 italic">
+            Dagufi. I'm your dog.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
