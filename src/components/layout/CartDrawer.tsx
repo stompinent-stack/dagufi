@@ -177,7 +177,7 @@ export function CartDrawer() {
             </a>
 
             <p className="text-center font-body text-xs text-charcoal-900/30">
-              Veilig betalen via Shopify — iDEAL, Creditcard, PayPal
+              Veilig betalen via Shopify - iDEAL, Creditcard, PayPal
             </p>
           </div>
         )}
