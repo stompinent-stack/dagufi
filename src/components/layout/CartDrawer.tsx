@@ -159,7 +159,7 @@ export function CartDrawer() {
               </div>
             </div>
 
-            
+            <a
               href={cart.checkoutUrl}
               className={cn(
                 "btn-primary w-full text-center",
