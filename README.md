@@ -269,4 +269,4 @@ npm run lint     # ESLint check
 
 ## 💬 Support
 
-Vragen? support@dagufi.com
+Vragen ? support@dagufi.com
