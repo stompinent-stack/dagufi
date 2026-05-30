@@ -32,7 +32,6 @@ export function ProductCard({ product }: ProductCardProps) {
             <span className="text-5xl">🐕</span>
           </div>
         )}
-
         {discount && (
           <div className="absolute top-3 left-3 bg-charcoal-900 text-white px-2.5 py-1">
             <span className="font-body text-[11px] tracking-wider">
@@ -40,7 +39,6 @@ export function ProductCard({ product }: ProductCardProps) {
             </span>
           </div>
         )}
-
         {!product.availableForSale && (
           <div className="absolute inset-0 bg-white/60 flex items-center justify-center">
             <span className="font-body text-sm text-charcoal-900/50 tracking-widest uppercase">
@@ -61,16 +59,14 @@ export function ProductCard({ product }: ProductCardProps) {
           </div>
           <span className="font-body text-[11px] text-charcoal-900/40">(47)</span>
         </div>
-
         <h3 className="font-body text-sm font-medium text-charcoal-900 group-hover:text-gold-500 transition-colors line-clamp-1">
           {product.title}
         </h3>
-
         <div className="flex items-baseline gap-2">
           <span className="font-body text-base font-medium text-charcoal-900">
             {formatPrice(product.priceMin, product.currencyCode)}
           </span>
-          {product.compareAtPriceMin && (
+          {product.compareAtPriceMin && parseFloat(product.compareAtPriceMin) > 0 && (
             <span className="font-body text-sm text-charcoal-900/30 line-through">
               {formatPrice(product.compareAtPriceMin, product.currencyCode)}
             </span>
