@@ -88,10 +88,10 @@ export default function TrackOrderPage() {
               <p className="font-body text-sm text-charcoal-900/40 mt-3">
                 Geen e-mail ontvangen? Check je spam of neem contact op via{" "}
                 <a
-                  href="mailto:support@dagufi.com"
+                  href="mailto:support@dagufi.nl"
                   className="text-gold-500 hover:underline"
                 >
-                  support@dagufi.com
+                  support@dagufi.nl
                 </a>
               </p>
             </div>
