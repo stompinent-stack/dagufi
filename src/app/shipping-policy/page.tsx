@@ -57,7 +57,7 @@ export default function ShippingPolicyPage() {
       <PolicySection title="Pakket niet ontvangen?">
         <p>
           Als jouw pakket na de verwachte levertijd nog niet is aangekomen, neem dan
-          contact op via support@dagufi.com. Vermeld je ordernummer en wij helpen je
+          contact op via support@dagufi.nl. Vermeld je ordernummer en wij helpen je
           zo snel mogelijk verder.
         </p>
       </PolicySection>
