@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { Minus, Plus, ChevronDown, Star, Truck, RotateCcw, Shield } from "lucide-react";
+import { Minus, Plus, ChevronDown, Truck, RotateCcw, Shield } from "lucide-react";
 import type { Product, ProductVariant } from "@/types/shopify";
 import { formatPrice, getDiscountPercentage } from "@/lib/normalise";
 import { AddToCartButton } from "@/components/ui/AddToCartButton";
@@ -43,13 +43,11 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
     selectedVariant.compareAtPrice
   );
 
-  // Group options for display
   const hasVariants =
     product.variants.length > 1 ||
     (product.variants[0] && product.variants[0].title !== "Default Title");
 
   const handleOptionChange = (optionName: string, value: string) => {
-    // Find the variant that matches all current selections with this one changed
     const newOptions = selectedVariant.selectedOptions.map((opt) =>
       opt.name === optionName ? { ...opt, value } : opt
     );
@@ -65,7 +63,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
 
   const handleBuyNow = async () => {
     await addItem(selectedVariant.id, quantity);
-    // Cart drawer opens automatically via the store
   };
 
   return (
@@ -74,7 +71,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           {/* ─── Images ─── */}
           <div className="space-y-3">
-            {/* Main image */}
             <div className="relative aspect-square bg-cream-100 overflow-hidden">
               {product.images[selectedImage] ? (
                 <Image
@@ -97,7 +93,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
               )}
             </div>
 
-            {/* Thumbnails */}
             {product.images.length > 1 && (
               <div className="flex gap-2 overflow-x-auto pb-1">
                 {product.images.map((img, i) => (
@@ -126,18 +121,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
 
           {/* ─── Product info ─── */}
           <div className="space-y-6">
-            {/* Stars */}
-            <div className="flex items-center gap-2">
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={13} className="text-gold-500 fill-gold-500" />
-                ))}
-              </div>
-              <span className="font-body text-sm text-charcoal-900/40">
-                4.9 (247 reviews)
-              </span>
-            </div>
-
             {/* Title */}
             <h1 className="font-display text-3xl md:text-4xl font-light text-charcoal-900 leading-tight">
               {product.title}
@@ -268,7 +251,6 @@ export function ProductPageClient({ product }: ProductPageClientProps) {
               </div>
             </div>
 
-            {/* Trust badges */}
             <TrustBadges />
           </div>
         </div>
