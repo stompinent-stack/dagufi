@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllProducts } from "@/lib/api";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dagufi.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dagufi.nl";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = [
