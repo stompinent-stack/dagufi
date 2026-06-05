@@ -110,10 +110,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:support@dagufi.com"
+                  href="mailto:support@dagufi.nl"
                   className="font-body text-sm text-white/60 hover:text-white transition-colors"
                 >
-                  support@dagufi.com
+                  support@dagufi.nl
                 </a>
               </li>
             </ul>
