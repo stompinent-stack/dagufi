@@ -9,7 +9,7 @@ export default function TermsPage() {
       <PolicySection title="1. Toepasselijkheid">
         <p>
           Deze algemene voorwaarden zijn van toepassing op alle bestellingen die via
-          dagufi.com worden geplaatst. Door een bestelling te plaatsen, ga je akkoord
+          dagufi.nl worden geplaatst. Door een bestelling te plaatsen, ga je akkoord
           met deze voorwaarden.
         </p>
       </PolicySection>
