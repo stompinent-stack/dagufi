@@ -49,7 +49,7 @@ const faqCategories = [
     faqs: [
       {
         q: "Kan ik het harnas retourneren?",
-        a: "Je hebt 30 dagen de tijd om het product te retourneren, mits het in originele en ongebruikte staat verkeert. Neem contact op via support@dagufi.com om een retour te starten.",
+        a: "Je hebt 30 dagen de tijd om het product te retourneren, mits het in originele en ongebruikte staat verkeert. Neem contact op via support@dagufi.nl om een retour te starten.",
       },
       {
         q: "Hoe lang duurt de terugbetaling?",
@@ -57,7 +57,7 @@ const faqCategories = [
       },
       {
         q: "Wat als het product defect is?",
-        a: "Neem direct contact op via support@dagufi.com met foto's van het defect. We sturen je kosteloos een nieuw product op of betalen terug.",
+        a: "Neem direct contact op via support@dagufi.nl met foto's van het defect. We sturen je kosteloos een nieuw product op of betalen terug.",
       },
     ],
   },
