@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Instagram, Facebook } from "lucide-react";
 
 const shopLinks = [
   { label: "Alle producten", href: "/products" },
@@ -30,30 +29,10 @@ export function Footer() {
             >
               DAGUFI
             </Link>
-            <p className="font-body text-sm text-white/50 leading-relaxed mt-3 mb-6">
+            <p className="font-body text-sm text-white/50 leading-relaxed mt-3">
               Premium hondenaccessoires voor de moderne hondeneigenaar. Stijlvol,
               duurzaam en met liefde ontworpen.
             </p>
-            <div className="flex gap-4">
-              
-                href="https://instagram.com/dagufi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/50 hover:text-gold-400 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram size={18} />
-              </a>
-              
-                href="https://facebook.com/dagufi"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white/50 hover:text-gold-400 transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook size={18} />
-              </a>
-            </div>
           </div>
 
           {/* Shop */}
