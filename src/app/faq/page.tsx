@@ -96,10 +96,10 @@ export default function FaqPage() {
           <p className="font-body text-base text-charcoal-900/50 mt-3 max-w-md">
             Staat jouw vraag er niet bij? Mail ons op{" "}
             <a
-              href="mailto:support@dagufi.com"
+              href="mailto:support@dagufi.nl"
               className="text-gold-500 hover:underline"
             >
-              support@dagufi.com
+              support@dagufi.nl
             </a>
           </p>
         </div>
