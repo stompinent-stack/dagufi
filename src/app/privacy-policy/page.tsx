@@ -67,7 +67,7 @@ export default function PrivacyPolicyPage() {
           <li>Gegevensoverdraagbaarheid aan te vragen</li>
         </ul>
         <p>
-          Neem hiervoor contact op via support@dagufi.com. Je kunt ook een klacht
+          Neem hiervoor contact op via support@dagufi.nl. Je kunt ook een klacht
           indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).
         </p>
       </PolicySection>
