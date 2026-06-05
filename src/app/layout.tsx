@@ -21,7 +21,7 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dagufi.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dagufi.nl";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
