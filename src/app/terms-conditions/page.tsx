@@ -56,7 +56,7 @@ export default function TermsPage() {
 
       <PolicySection title="7. Klachten">
         <p>
-          Klachten kunnen worden ingediend via support@dagufi.com. Wij streven ernaar
+          Klachten kunnen worden ingediend via support@dagufi.nl. Wij streven ernaar
           klachten binnen 5 werkdagen te beantwoorden. Bij geschillen kun je je wenden
           tot het Europees platform voor onlinegeschillenbeslechting:
           ec.europa.eu/consumers/odr
