@@ -21,7 +21,7 @@ const productFaqs = [
   },
   {
     q: "Kan ik het ruilen als de maat niet klopt?",
-    a: "Ja, gratis ruilen of retourneren binnen 30 dagen. Stuur een mail naar support@dagufi.com.",
+    a: "Ja, gratis ruilen of retourneren binnen 30 dagen. Stuur een mail naar support@dagufi.nl.",
   },
 ];
 
