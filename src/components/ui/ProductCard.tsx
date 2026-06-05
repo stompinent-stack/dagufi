@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Star } from "lucide-react";
 import type { Product } from "@/types/shopify";
 import { formatPrice, getDiscountPercentage } from "@/lib/normalise";
 
@@ -50,15 +49,6 @@ export function ProductCard({ product }: ProductCardProps) {
 
       {/* Info */}
       <div className="space-y-1.5">
-        {/* Fake stars for trust */}
-        <div className="flex items-center gap-1.5">
-          <div className="flex">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} size={10} className="text-gold-400 fill-gold-400" />
-            ))}
-          </div>
-          <span className="font-body text-[11px] text-charcoal-900/40">(47)</span>
-        </div>
         <h3 className="font-body text-sm font-medium text-charcoal-900 group-hover:text-gold-500 transition-colors line-clamp-1">
           {product.title}
         </h3>
