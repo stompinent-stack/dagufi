@@ -35,7 +35,7 @@ export function Footer() {
               duurzaam en met liefde ontworpen.
             </p>
             <div className="flex gap-4">
-              <a
+              
                 href="https://instagram.com/dagufi"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -44,7 +44,7 @@ export function Footer() {
               >
                 <Instagram size={18} />
               </a>
-              <a
+              
                 href="https://facebook.com/dagufi"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -109,7 +109,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a
+                
                   href="mailto:support@dagufi.nl"
                   className="font-body text-sm text-white/60 hover:text-white transition-colors"
                 >
@@ -136,7 +136,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="container-wide section-padding py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-xs text-white/30">
-            © {currentYear} Dagufi. Alle rechten voorbehouden.
+            © {currentYear} Dagufi. Alle rechten voorbehouden. · KVK: 94572283
           </p>
           <p className="font-body text-xs text-white/20">
             Ontworpen met ♥ voor jou en jouw hond
