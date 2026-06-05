@@ -15,8 +15,8 @@ export default function PrivacyPolicyPage() {
         <p>
           <strong>Contactgegevens:</strong><br />
           Dagufi<br />
-          E-mail: support@dagufi.com<br />
-          Website: dagufi.com
+          E-mail: support@dagufi.nl<br />
+          Website: dagufi.nl
         </p>
       </PolicySection>
 
