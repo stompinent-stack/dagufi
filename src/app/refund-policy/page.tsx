@@ -29,7 +29,7 @@ export default function RefundPolicyPage() {
 
       <PolicySection title="Hoe retourneer ik?">
         <p>
-          1. Stuur een e-mail naar support@dagufi.com met je bestelnummer en reden voor retour.<br />
+          1. Stuur een e-mail naar support@dagufi.nl met je bestelnummer en reden voor retour.<br />
           2. Wij sturen je retourinstructies en het retouradres.<br />
           3. Stuur het pakket terug. Retourkosten zijn voor de klant, tenzij het product defect is.<br />
           4. Na ontvangst en controle verwerken we je terugbetaling binnen 5 werkdagen.
@@ -46,7 +46,7 @@ export default function RefundPolicyPage() {
       <PolicySection title="Defect of verkeerd product">
         <p>
           Heb je een defect of verkeerd product ontvangen? Neem dan direct contact op via
-          support@dagufi.com. Stuur foto&apos;s mee van het product. Wij sturen kosteloos
+          support@dagufi.nl. Stuur foto&apos;s mee van het product. Wij sturen kosteloos
           een vervangend product op of betalen het volledige aankoopbedrag terug,
           inclusief verzendkosten.
         </p>
