@@ -58,10 +58,10 @@ export default function ContactPage() {
                     E-mail
                   </p>
                   <a
-                    href="mailto:support@dagufi.com"
+                    href="mailto:support@dagufi.nl"
                     className="font-body text-sm text-charcoal-900/60 hover:text-gold-500 transition-colors"
                   >
-                    support@dagufi.com
+                    support@dagufi.nl
                   </a>
                 </div>
               </div>
