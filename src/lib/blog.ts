@@ -425,5 +425,536 @@ export const blogPosts: BlogPost[] = [
       <h2>Conclusie</h2>
       <p>Met de juiste voorbereiding geef je jouw nieuwe hond de beste start. Bekijk het aanbod van Dagufi voor slimme voerbakken en comfortabele harnassen.</p>
     `,
+  },  {
+    slug: "hond-socialiseren-tips",
+    title: "Hond socialiseren — hoe doe je dat goed?",
+    excerpt: "Een goed gesocialiseerde hond is gelukkiger en makkelijker in de omgang. Wij geven je praktische tips om jouw hond te socialiseren, op elke leeftijd.",
+    category: "Hondentips",
+    date: "19 mei 2026",
+    content: `
+      <p>Socialisatie is een van de belangrijkste dingen die je voor jouw hond kunt doen. Een goed gesocialiseerde hond reageert rustig op andere honden, mensen en nieuwe situaties.</p>
+      <h2>Wanneer beginnen?</h2>
+      <p>De beste tijd om te socialiseren is tussen de 3 en 14 weken oud. Maar ook oudere honden kunnen nog worden gesocialiseerd, al kost het meer tijd.</p>
+      <h2>Hoe socialiseer je een hond?</h2>
+      <ul>
+        <li>Laat je hond kennismaken met verschillende mensen, kinderen en andere dieren</li>
+        <li>Neem je hond mee naar drukke plekken zoals markten en parken</li>
+        <li>Zorg voor positieve ervaringen — beloon rustig gedrag</li>
+        <li>Ga naar een puppycursus voor begeleide socialisatie</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Socialisatie kost tijd maar levert een hond op die overal mee naartoe kan. Combineer dit met een comfortabel anti-trek harnas van Dagufi voor veilige uitstapjes.</p>
+    `,
   },
+  {
+    slug: "hond-in-de-zomer-tips",
+    title: "Hond in de zomer — zo houd je hem koel",
+    excerpt: "Hitte is gevaarlijk voor honden. Met deze tips houd je jouw hond koel en veilig tijdens warme zomerdagen.",
+    category: "Hondentips",
+    date: "18 mei 2026",
+    content: `
+      <p>Honden kunnen slecht tegen hitte. Ze koelen af door te hijgen, maar dat is bij extreme temperaturen niet genoeg.</p>
+      <h2>Tips voor warme dagen</h2>
+      <ul>
+        <li>Wandel vroeg in de ochtend of laat in de avond</li>
+        <li>Zorg altijd voor vers water</li>
+        <li>Laat je hond nooit achter in een auto</li>
+        <li>Gebruik een koelmat om je hond af te koelen</li>
+      </ul>
+      <h2>Automatische voerbak in de zomer</h2>
+      <p>Met een automatische voerbak zorg je dat je hond ook op hete dagen op tijd zijn maaltijd krijgt. Stel kleinere porties in bij warm weer — honden eten minder als het heet is.</p>
+      <h2>Conclusie</h2>
+      <p>Met de juiste voorzorgsmaatregelen en hulpmiddelen van Dagufi geniet je veilig van de zomer samen met je hond.</p>
+    `,
+  },
+  {
+    slug: "hond-in-de-winter-tips",
+    title: "Hond in de winter — bescherm je hond tegen de kou",
+    excerpt: "Niet alle honden kunnen goed tegen de kou. Ontdek hoe je jouw hond beschermt tijdens koude winterdagen.",
+    category: "Hondentips",
+    date: "17 mei 2026",
+    content: `
+      <p>Winter brengt voor honden specifieke uitdagingen. Van gevoelige pootjes op bevroren grond tot kou voor kortharige rassen.</p>
+      <h2>Tips voor koude dagen</h2>
+      <ul>
+        <li>Trek je hond een hondenjasje aan bij extreme kou</li>
+        <li>Bescherm de pootjes tegen strooizout met pootenvet</li>
+        <li>Droog je hond goed af na een wandeling in de regen</li>
+        <li>Houd wandelingen korter bij vrieskou</li>
+      </ul>
+      <h2>Voeding in de winter</h2>
+      <p>Honden die veel buiten zijn in de winter hebben meer energie nodig. Pas de portiegrootte aan via je automatische voerbak van Dagufi.</p>
+      <h2>Conclusie</h2>
+      <p>Met de juiste voorbereiding geniet ook jouw hond van de winter.</p>
+    `,
+  },
+  {
+    slug: "hond-en-kinderen-tips",
+    title: "Hond en kinderen — hoe laat je ze veilig samenleven?",
+    excerpt: "Een hond en kinderen kunnen geweldig samen zijn, maar veiligheid komt altijd eerst. Lees onze tips voor een harmonieuze samenleving.",
+    category: "Hondentips",
+    date: "16 mei 2026",
+    content: `
+      <p>Een hond en kinderen kunnen de beste vrienden zijn. Maar om dit veilig te laten verlopen, zijn een aantal regels onmisbaar.</p>
+      <h2>Regels voor kinderen</h2>
+      <ul>
+        <li>Nooit een hond storen tijdens het eten of slapen</li>
+        <li>Altijd rustig bewegen rondom de hond</li>
+        <li>Nooit aan de staart of oren trekken</li>
+      </ul>
+      <h2>Toezicht is altijd nodig</h2>
+      <p>Laat jonge kinderen nooit alleen met een hond, ook niet als de hond nog nooit agressief is geweest.</p>
+      <h2>Conclusie</h2>
+      <p>Met de juiste aanpak is een hond een fantastische toevoeging aan een gezin met kinderen.</p>
+    `,
+  },
+  {
+    slug: "hond-gedrag-begrijpen",
+    title: "Hondentaal begrijpen — wat zegt jouw hond?",
+    excerpt: "Honden communiceren constant via lichaamstaal. Leer de signalen herkennen en begrijp wat jouw hond je probeert te vertellen.",
+    category: "Hondentips",
+    date: "15 mei 2026",
+    content: `
+      <p>Honden praten niet, maar ze communiceren de hele dag via lichaamstaal, geluiden en gedrag.</p>
+      <h2>Positieve signalen</h2>
+      <ul>
+        <li>Kwispelen met de staart in een rustige boog — blij en ontspannen</li>
+        <li>Buik omhoog draaien — vertrouwen</li>
+        <li>Speelboog maken — uitnodiging om te spelen</li>
+      </ul>
+      <h2>Stresssignalen</h2>
+      <ul>
+        <li>Geeuwen zonder moe te zijn — stress</li>
+        <li>Staart laag houden — onzekerheid of angst</li>
+        <li>Oren plat — bang of onderdanig</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Hoe beter je je hond begrijpt, hoe sterker jullie band wordt.</p>
+    `,
+  },
+  {
+    slug: "hond-tandenpoetsen",
+    title: "Tandenpoetsen bij honden — zo doe je het",
+    excerpt: "Wist je dat tandenpoetsen een van de belangrijkste verzorgingstaken is voor jouw hond? Lees hoe je dit het beste aanpakt.",
+    category: "Hondentips",
+    date: "14 mei 2026",
+    content: `
+      <p>Tandproblemen zijn een van de meest voorkomende gezondheidsproblemen bij honden. Regelmatig tandenpoetsen voorkomt tandplak en tandvleesontsteking.</p>
+      <h2>Stap voor stap</h2>
+      <ol>
+        <li>Laat je hond eerst aan de tandpasta ruiken en proeven</li>
+        <li>Masseer het tandvlees met je vinger</li>
+        <li>Introduceer de tandenborstel langzaam</li>
+        <li>Poets in cirkelbewegingen</li>
+        <li>Beloon je hond na elke sessie</li>
+      </ol>
+      <h2>Conclusie</h2>
+      <p>Tandenpoetsen kost maar twee minuten per dag en spaart hoge dierenartsfacturen. Gebruik nooit menselijke tandpasta — dat is giftig voor honden.</p>
+    `,
+  },
+  {
+    slug: "hond-vacht-verzorgen",
+    title: "Vacht verzorgen — tips per rastype",
+    excerpt: "Elke hond heeft andere vachtverzorging nodig. Van kortharig tot langharig — wij geven je tips per rastype.",
+    category: "Hondentips",
+    date: "13 mei 2026",
+    content: `
+      <p>De vacht van je hond regelmatig verzorgen is niet alleen voor de schoonheid — het is ook goed voor de gezondheid.</p>
+      <h2>Kortharige rassen</h2>
+      <p>Een wekelijkse borstelbeurt met een rubberhandschoen verwijdert dood haar en stimuleert de bloedsomloop.</p>
+      <h2>Langharige rassen</h2>
+      <p>Dagelijkse aandacht nodig. Gebruik een brede kam en ontklittingsspray. Laat de vacht regelmatig trimmen.</p>
+      <h2>Conclusie</h2>
+      <p>Regelmatige vachtverzorging is een moment van verbinding met je hond.</p>
+    `,
+  },
+  {
+    slug: "hond-kopen-of-adopteren",
+    title: "Hond kopen of adopteren — wat is de beste keuze?",
+    excerpt: "Kopen of adopteren? Dit is een van de eerste vragen die je stelt als je een hond wilt. Wij helpen je de juiste keuze te maken.",
+    category: "Hondentips",
+    date: "12 mei 2026",
+    content: `
+      <p>Wil je een hond in huis halen? Dan sta je voor een belangrijke keuze: kopen bij een fokker of adopteren uit een asiel.</p>
+      <h2>Hond kopen bij een fokker</h2>
+      <p>Je weet precies welk ras je krijgt. Koop altijd bij een erkend fokker die is aangesloten bij een rasvereniging.</p>
+      <h2>Hond adopteren uit een asiel</h2>
+      <p>Je geeft een hond een tweede kans. Goedkoper dan kopen en honden zijn vaak al gevaccineerd en gechipt.</p>
+      <h2>Conclusie</h2>
+      <p>Beide opties zijn goed — als je maar bewust kiest. Bekijk het aanbod van Dagufi voor een vliegende start.</p>
+    `,
+  },
+  {
+    slug: "hond-zindelijk-maken",
+    title: "Hond zindelijk maken — stap voor stap",
+    excerpt: "Een puppy zindelijk maken kost tijd en geduld. Met deze stap-voor-stap aanpak lukt het sneller dan je denkt.",
+    category: "Hondentips",
+    date: "11 mei 2026",
+    content: `
+      <p>Zindelijkheidstraining is een van de eerste dingen die je aanpakt met een nieuwe puppy. Met de juiste aanpak lukt het sneller dan je denkt.</p>
+      <h2>De gouden regel</h2>
+      <p>Neem je puppy elke 1-2 uur naar buiten, direct na het eten, na het slapen en na het spelen.</p>
+      <h2>Vaste routine helpt</h2>
+      <p>Een vaste voedingsroutine maakt zindelijkheidstraining makkelijker. Met een automatische voerbak van Dagufi eet je hond altijd op hetzelfde tijdstip.</p>
+      <h2>Conclusie</h2>
+      <p>Gemiddeld duurt zindelijkheidstraining 4-8 weken. Met geduld en consistentie lukt het altijd.</p>
+    `,
+  },
+  {
+    slug: "hond-scheiding-angst",
+    title: "Scheidingsangst bij honden — oorzaken en oplossingen",
+    excerpt: "Heeft jouw hond moeite als je weggaat? Scheidingsangst is een veelvoorkomend probleem. Lees hoe je het herkent en aanpakt.",
+    category: "Hondentips",
+    date: "10 mei 2026",
+    content: `
+      <p>Scheidingsangst is een van de meest voorkomende gedragsproblemen bij honden. Het uit zich in blaffen, janken of vernielen als je weg bent.</p>
+      <h2>Oplossingen</h2>
+      <ul>
+        <li>Oefen met korte periodes alleen zijn en bouw dit langzaam op</li>
+        <li>Maak vertrek en terugkomst niet te groot</li>
+        <li>Geef puzzelspeelgoed voor afleiding</li>
+      </ul>
+      <h2>Camera helpt</h2>
+      <p>Met een automatische voerbak met camera van Dagufi kun je je hond in de gaten houden en zelfs aanspreken via de ingebouwde microfoon.</p>
+      <h2>Conclusie</h2>
+      <p>Scheidingsangst is behandelbaar. Met geduld en de juiste hulpmiddelen van Dagufi help je je hond zelfstandiger te worden.</p>
+    `,
+  },
+  {
+    slug: "hond-spelen-belang",
+    title: "Waarom spelen zo belangrijk is voor jouw hond",
+    excerpt: "Spelen is niet alleen leuk — het is essentieel voor de gezondheid en het welzijn van jouw hond.",
+    category: "Hondentips",
+    date: "9 mei 2026",
+    content: `
+      <p>Spelen is voor honden veel meer dan tijdverdrijf. Het stimuleert de hersenen, versterkt de band met jou en houdt de spieren sterk.</p>
+      <h2>Beste spelvormen</h2>
+      <ul>
+        <li>Apporteren — geweldig voor actieve rassen</li>
+        <li>Trekspellen — leuk maar leer je hond ook loslaten</li>
+        <li>Puzzelspelletjes — mentale uitdaging voor slimme honden</li>
+        <li>Zoekspellen — activeer de neus van je hond</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Dagelijks spelen is een investering in de gezondheid van je hond. Combineer het met een goede voedingsroutine via de automatische voerbak van Dagufi.</p>
+    `,
+  },
+  {
+    slug: "hond-dierenarts-bezoek",
+    title: "Naar de dierenarts — hoe vaak en wanneer?",
+    excerpt: "Hoe vaak moet je naar de dierenarts met je hond? En wanneer moet je direct gaan?",
+    category: "Hondentips",
+    date: "8 mei 2026",
+    content: `
+      <p>Regelmatige dierenartbezoeken zijn essentieel voor de gezondheid van je hond.</p>
+      <h2>Routinecontroles</h2>
+      <ul>
+        <li>Puppies: elke 3-4 weken voor vaccinaties</li>
+        <li>Volwassen honden: minimaal één keer per jaar</li>
+        <li>Senioren: twee keer per jaar</li>
+      </ul>
+      <h2>Direct naar de dierenarts bij</h2>
+      <ul>
+        <li>Bloedingen die niet stoppen</li>
+        <li>Moeite met ademhalen</li>
+        <li>Bewusteloosheid of stuipen</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Jaarlijkse controles zijn het minimum. Ken je hond goed en twijfel niet om eerder te gaan als iets niet klopt.</p>
+    `,
+  },
+  {
+    slug: "hond-chip-en-registratie",
+    title: "Hond chippen en registreren — alles wat je moet weten",
+    excerpt: "In Nederland is het verplicht om je hond te chippen. Maar wat houdt dat precies in?",
+    category: "Hondentips",
+    date: "7 mei 2026",
+    content: `
+      <p>Sinds 2013 is het in Nederland verplicht om honden te chippen en te registreren.</p>
+      <h2>Waarom chippen?</h2>
+      <ul>
+        <li>Wettelijk verplicht bij honden van 7 weken en ouder</li>
+        <li>Vergroot de kans op hereniging bij verlies</li>
+        <li>Verplicht voor reizen naar het buitenland</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Chippen en registreren is een wettelijke verplichting. Zorg ook voor een identificatieplaatje aan het harnas van Dagufi.</p>
+    `,
+  },
+  {
+    slug: "hond-vlooien-teken",
+    title: "Vlooien en teken bij honden — preventie en behandeling",
+    excerpt: "Vlooien en teken zijn vervelend en kunnen gevaarlijk zijn voor je hond. Lees hoe je ze voorkomt en bestrijdt.",
+    category: "Hondentips",
+    date: "6 mei 2026",
+    content: `
+      <p>Vlooien en teken zijn het hele jaar door actief. Preventie is makkelijker dan behandeling.</p>
+      <h2>Preventie</h2>
+      <ul>
+        <li>Gebruik maandelijks een vlooien- en tekenmiddel</li>
+        <li>Controleer je hond na elke wandeling in het bos</li>
+        <li>Was de mand van je hond regelmatig op 60 graden</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Maandelijkse preventie is de makkelijkste manier om vlooien en teken te voorkomen.</p>
+    `,
+  },
+  {
+    slug: "hond-obesitas-voorkomen",
+    title: "Obesitas bij honden — zo voorkom je het",
+    excerpt: "Meer dan de helft van de honden in Nederland heeft overgewicht. Lees hoe je dit voorkomt.",
+    category: "Voerbakken",
+    date: "5 mei 2026",
+    content: `
+      <p>Obesitas is een van de grootste gezondheidsproblemen bij honden. Overgewicht leidt tot gewrichtsproblemen en een kortere levensduur.</p>
+      <h2>Oplossing</h2>
+      <ul>
+        <li>Weeg het voer nauwkeurig af</li>
+        <li>Gebruik een automatische voerbak voor exacte portiecontrole</li>
+        <li>Meer bewegen — twee wandelingen per dag</li>
+        <li>Geen restjes van tafel</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Portiecontrole is de sleutel. Met de automatische voerbak van Dagufi stel je exact in hoeveel jouw hond per maaltijd krijgt.</p>
+    `,
+  },
+  {
+    slug: "hond-training-basiscommandos",
+    title: "Basiscommando's voor honden — zo train je ze",
+    excerpt: "Zitten, liggen, blijf en hier — deze vier basiscommando's zijn essentieel voor elke hond.",
+    category: "Hondentips",
+    date: "4 mei 2026",
+    content: `
+      <p>Een goed getrainde hond is veiliger, gelukkiger en makkelijker in de omgang.</p>
+      <h2>De vier basiscommando's</h2>
+      <ul>
+        <li><strong>Zitten</strong> — houd een snack boven de neus en beweeg achteruit</li>
+        <li><strong>Liggen</strong> — vanuit zit, beweeg snack naar de grond</li>
+        <li><strong>Blijf</strong> — stap achteruit en beloon als hij blijft</li>
+        <li><strong>Hier</strong> — het belangrijkste commando voor veiligheid</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Train dagelijks maar houd sessies kort. Positieve beloning werkt altijd beter dan straf.</p>
+    `,
+  },
+  {
+    slug: "hond-reizen-auto",
+    title: "Hond meenemen in de auto — veilig en comfortabel",
+    excerpt: "Reizen met je hond in de auto vraagt om de juiste voorbereiding.",
+    category: "Hondentips",
+    date: "3 mei 2026",
+    content: `
+      <p>Veel honden reizen regelmatig mee in de auto. Maar veiligheid in de auto is voor veel eigenaren nog een blinde vlek.</p>
+      <h2>Opties voor veilig vervoer</h2>
+      <ul>
+        <li>Bench in de kofferbak</li>
+        <li>Hondenriem met autogordel adapter</li>
+        <li>Reismand op de achterbank</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Veilig reizen met je hond is een verantwoordelijkheid. Met het Dagufi Anti-Trek Harnas kun je je hond ook veilig vastmaken in de auto.</p>
+    `,
+  },
+  {
+    slug: "puppy-eerste-weken",
+    title: "De eerste weken met een puppy — wat kun je verwachten?",
+    excerpt: "Een nieuwe puppy in huis is opwindend maar ook intensief. Weet wat je kunt verwachten.",
+    category: "Hondentips",
+    date: "2 mei 2026",
+    content: `
+      <p>De eerste weken met een puppy zijn magisch maar ook uitdagend.</p>
+      <h2>Week 1-2: aanpassing</h2>
+      <p>Je puppy mist zijn moeder. Hij kan huilen en slecht slapen. Geef hem rust en een warme slaapplek.</p>
+      <h2>Voeding</h2>
+      <p>Geef puppyvoeding drie tot vier keer per dag in kleine porties. Een automatische voerbak van Dagufi helpt je een vaste routine op te bouwen.</p>
+      <h2>Conclusie</h2>
+      <p>De eerste weken leggen de basis voor een gelukkig hondenleven. Geduld en consistentie zijn je beste vrienden.</p>
+    `,
+  },
+  {
+    slug: "senior-hond-verzorging",
+    title: "Oudere hond verzorgen — speciale aandacht voor senioren",
+    excerpt: "Oudere honden hebben andere behoeften dan jonge honden. Lees hoe je jouw senior hond de beste zorg geeft.",
+    category: "Hondentips",
+    date: "1 mei 2026",
+    content: `
+      <p>Honden worden beschouwd als senior vanaf 7 jaar. Oudere honden verdienen extra aandacht en zorg.</p>
+      <h2>Aanpassingen in de zorg</h2>
+      <ul>
+        <li>Schakel over op seniorenvoeding</li>
+        <li>Korte, frequente wandelingen</li>
+        <li>Orthopedische mand voor gewrichten</li>
+        <li>Twee keer per jaar naar de dierenarts</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Met de automatische voerbak van Dagufi pas je porties eenvoudig aan de veranderende behoeften aan.</p>
+    `,
+  },
+  {
+    slug: "hond-zwemmen-water",
+    title: "Hond leren zwemmen — tips voor een veilige kennismaking met water",
+    excerpt: "Niet alle honden zijn van nature zwemmers. Lees hoe je jouw hond veilig laat kennismaken met water.",
+    category: "Hondentips",
+    date: "30 april 2026",
+    content: `
+      <p>Zwemmen is een geweldige manier van bewegen voor honden. Maar niet elke hond springt spontaan het water in.</p>
+      <h2>Stap voor stap het water in</h2>
+      <ol>
+        <li>Begin met ondiep water</li>
+        <li>Ga zelf het water in en nodig je hond uit</li>
+        <li>Gebruik een drijvend speeltje</li>
+        <li>Beloon elke stap in de goede richting</li>
+      </ol>
+      <h2>Conclusie</h2>
+      <p>Met geduld leer je bijna elke hond zwemmen. Na een zwempartij verdient je hond een goed gevulde voerbak van Dagufi!</p>
+    `,
+  },
+  {
+    slug: "hond-gedragsproblemen-oplossen",
+    title: "Gedragsproblemen bij honden — oorzaken en oplossingen",
+    excerpt: "Blaffen, bijten, springen, kauwen — gedragsproblemen zijn vervelend maar bijna altijd oplosbaar.",
+    category: "Hondentips",
+    date: "28 april 2026",
+    content: `
+      <p>Vrijwel elke hondeneigenaar krijgt ooit te maken met gedragsproblemen. De meeste zijn oplosbaar.</p>
+      <h2>Overmatig blaffen</h2>
+      <p>Beloon stilte en negeer blaffen. Zorg voor voldoende beweging en mentale stimulatie.</p>
+      <h2>Destructief kauwen</h2>
+      <p>Geef geschikte kauwartikelen en zorg voor voldoende beweging en speeltijd.</p>
+      <h2>Conclusie</h2>
+      <p>Voldoende beweging en een vaste routine helpen enorm. De automatische voerbak van Dagufi helpt die routine te bewaren.</p>
+    `,
+  },
+  {
+    slug: "hond-eerste-hulp",
+    title: "Eerste hulp bij honden — wat doe je bij een ongeluk?",
+    excerpt: "Weet jij wat je moet doen als je hond gewond raakt? Met deze basiskennis ben je voorbereid.",
+    category: "Hondentips",
+    date: "27 april 2026",
+    content: `
+      <p>Ongelukken gebeuren altijd onverwacht. Basiskennis eerste hulp voor honden kan het verschil maken.</p>
+      <h2>Bloedingen</h2>
+      <p>Druk met een schone doek op de wond. Houd de druk minimaal 5 minuten aan. Bij ernstige bloedingen direct naar de dierenarts.</p>
+      <h2>Vergiftiging</h2>
+      <p>Bel direct de dierenarts of het Nationaal Vergiftigingen Informatiecentrum: 030-274 8888.</p>
+      <h2>Conclusie</h2>
+      <p>Bewaar het telefoonnummer van je dierenarts altijd bij de hand.</p>
+    `,
+  },
+  {
+    slug: "hond-voeding-giftig",
+    title: "Wat mag een hond niet eten? Giftige voeding voor honden",
+    excerpt: "Sommige voedingsmiddelen die wij lekker vinden zijn levensgevaarlijk voor honden.",
+    category: "Voerbakken",
+    date: "26 april 2026",
+    content: `
+      <p>Veel menselijk voedsel is gevaarlijk of zelfs dodelijk voor honden. Ken deze lijst.</p>
+      <h2>Absoluut verboden</h2>
+      <ul>
+        <li><strong>Chocolade</strong> — bevat theobromine, dodelijk voor honden</li>
+        <li><strong>Druiven en rozijnen</strong> — kunnen nierfalen veroorzaken</li>
+        <li><strong>Uien en knoflook</strong> — beschadigen de rode bloedcellen</li>
+        <li><strong>Xylitol</strong> — in kauwgom en snoep, dodelijk</li>
+        <li><strong>Avocado</strong> — giftig voor honden</li>
+        <li><strong>Alcohol</strong> — zelfs kleine hoeveelheden zijn gevaarlijk</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Geef je hond alleen speciaal hondenvoer. Met de automatische voerbak van Dagufi zorg je voor de juiste voeding.</p>
+    `,
+  },
+  {
+    slug: "hond-slaap-routine",
+    title: "Slaap en rust voor honden — hoeveel heeft jouw hond nodig?",
+    excerpt: "Honden slapen veel meer dan mensen. Hoeveel slaap heeft jouw hond eigenlijk nodig?",
+    category: "Hondentips",
+    date: "25 april 2026",
+    content: `
+      <p>Honden zijn kampioenen in slapen. Terwijl wij gemiddeld 8 uur slapen, heeft een hond 12-14 uur nodig.</p>
+      <h2>Hoeveel slaap per leeftijd?</h2>
+      <ul>
+        <li>Puppies: 16-20 uur per dag</li>
+        <li>Volwassen honden: 12-14 uur per dag</li>
+        <li>Senioren: tot 18 uur per dag</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Respecteer de slaapbehoefte van jouw hond. Combineer rust met een goede voedingsroutine via de automatische voerbak van Dagufi.</p>
+    `,
+  },
+  {
+    slug: "hond-water-drinken",
+    title: "Hoeveel water heeft een hond per dag nodig?",
+    excerpt: "Water is essentieel voor de gezondheid van je hond. Hoeveel heeft hij precies nodig?",
+    category: "Voerbakken",
+    date: "23 april 2026",
+    content: `
+      <p>Voldoende water drinken is essentieel. Een hond heeft 50-60 ml water per kilogram lichaamsgewicht per dag nodig.</p>
+      <h2>Hoe stimuleer je je hond meer te drinken?</h2>
+      <ul>
+        <li>Zet meerdere waterbakken op verschillende plekken</li>
+        <li>Ververs het water meerdere keren per dag</li>
+        <li>Gebruik een drinkfontein — bewegend water is aantrekkelijker</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Zorg altijd voor schoon, vers water. Combineer dit met de juiste voeding via de automatische voerbak van Dagufi.</p>
+    `,
+  },
+  {
+    slug: "hond-speelgoed-kiezen",
+    title: "Het juiste speelgoed voor jouw hond kiezen",
+    excerpt: "Niet elk speelgoed is geschikt voor elke hond. Lees hoe je de juiste keuze maakt.",
+    category: "Hondentips",
+    date: "22 april 2026",
+    content: `
+      <p>De markt voor hondenspeelgoed is enorm. Welk speelgoed is geschikt voor jouw hond?</p>
+      <h2>Voor kauwen</h2>
+      <p>Stevig rubber speelgoed zoals een Kong. Vul de Kong met lekkernijtjes voor extra uitdaging.</p>
+      <h2>Voor slimme honden</h2>
+      <p>Puzzelspelletjes en snuffelmatten houden slimme honden mentaal bezig.</p>
+      <h2>Veiligheid</h2>
+      <p>Controleer speelgoed regelmatig op slijtage. Gooi beschadigd speelgoed weg.</p>
+      <h2>Conclusie</h2>
+      <p>Goed speelgoed houdt je hond mentaal en fysiek actief. Combineer speeltijd met een goede voedingsroutine via de Dagufi automatische voerbak.</p>
+    `,
+  },
+  {
+    slug: "hond-stresssignalen-herkennen",
+    title: "Stress bij honden herkennen — de signalen",
+    excerpt: "Een gestresste hond laat dit duidelijk merken als je weet waar je op moet letten.",
+    category: "Hondentips",
+    date: "24 april 2026",
+    content: `
+      <p>Stress bij honden wordt vaak over het hoofd gezien. Toch geven honden duidelijke signalen af.</p>
+      <h2>Veelvoorkomende stresssignalen</h2>
+      <ul>
+        <li>Overmatig geeuwen buiten slaapmomenten</li>
+        <li>Trillen of beven</li>
+        <li>Staart tussen de benen</li>
+        <li>Overmatig hijgen zonder inspanning</li>
+        <li>Weigeren om te eten</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Een vaste routine vermindert stress enorm. De automatische voerbak van Dagufi helpt die routine dag na dag vast te houden.</p>
+    `,
+  },
+  {
+    slug: "hond-verjaardag-vieren",
+    title: "Verjaardag van je hond vieren — leuke ideeën",
+    excerpt: "De verjaardag van je hond vieren is een leuke manier om de band te versterken.",
+    category: "Hondentips",
+    date: "29 april 2026",
+    content: `
+      <p>Steeds meer hondeneigenaren vieren de verjaardag van hun hond. En waarom niet?</p>
+      <h2>Leuke ideeën</h2>
+      <ul>
+        <li>Bak een hondenvriendelijke taart van rijstmeel en banaan</li>
+        <li>Organiseer een speeldate met hondenvriendjes</li>
+        <li>Ga naar een nieuw park voor een avontuurlijke wandeling</li>
+        <li>Geef een nieuw speeltje of traktaties</li>
+      </ul>
+      <h2>Conclusie</h2>
+      <p>Geef je hond op zijn verjaardag extra tijd en een bijzondere wandeling met het Dagufi harnas!</p>
+    `,
+  },
+];
+
 ];
