@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PolicyPage, PolicySection } from "@/components/ui/PolicyPage";
 
-export const metadata: Metadata = { title: "Privacybeleid" };
+export const metadata: Metadata = { title: "Privacybeleid", description: "Lees het privacybeleid van Dagufi. Wij gaan zorgvuldig om met jouw persoonsgegevens." };
 
 export default function PrivacyPolicyPage() {
   return (
