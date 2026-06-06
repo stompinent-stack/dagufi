@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PolicyPage, PolicySection } from "@/components/ui/PolicyPage";
 
-export const metadata: Metadata = { title: "Retourbeleid" };
+export const metadata: Metadata = { title: "Retourbeleid — 30 dagen gratis retourneren", description: "Bekijk het retourbeleid van Dagufi. Je hebt 30 dagen de tijd om producten gratis te retourneren." };
 
 export default function RefundPolicyPage() {
   return (
