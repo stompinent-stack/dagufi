@@ -20,10 +20,8 @@ export function Footer() {
 
   return (
     <footer className="bg-charcoal-900 text-white">
-      {/* Main footer */}
       <div className="container-wide section-padding py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
-          {/* Brand */}
           <div className="md:col-span-1">
             <Link
               href="/"
@@ -37,7 +35,6 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Shop */}
           <div>
             <h4 className="font-body text-xs tracking-widest uppercase text-white/40 mb-5">
               Shop
@@ -56,7 +53,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
             <h4 className="font-body text-xs tracking-widest uppercase text-white/40 mb-5">
               Beleid
@@ -75,7 +71,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="font-body text-xs tracking-widest uppercase text-white/40 mb-5">
               Hulp nodig?
@@ -90,7 +85,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                
+                <a
                   href="mailto:support@dagufi.nl"
                   className="font-body text-sm text-white/60 hover:text-white transition-colors"
                 >
@@ -98,7 +93,6 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-            {/* Trust badges */}
             <div className="mt-8 flex flex-wrap gap-2">
               {["Veilig betalen", "Gratis retour", "Snelle levering"].map((badge) => (
                 <span
@@ -113,7 +107,6 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="container-wide section-padding py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="font-body text-xs text-white/30">
