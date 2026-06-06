@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const shopLinks = [
   { label: "Alle producten", href: "/products" },
+  { label: "Blog", href: "/blog" },
   { label: "FAQ", href: "/faq" },
   { label: "Bestelling tracken", href: "/track-order" },
 ];
