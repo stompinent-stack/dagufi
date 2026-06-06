@@ -26,11 +26,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dagufi.nl";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Dagufi — Premium Hondenaccessoires",
+    default: "Dagufi — Automatische voerbak & hondenaccessoires",
     template: "%s | Dagufi",
   },
   description:
-    "Ontdek Dagufi's premium collectie hondenaccessoires. Stijlvol, duurzaam en ontworpen voor de moderne hondeneigenaar.",
+    "Dagufi verkoopt automatische voerbakken voor honden met camera, anti-trek harnassen en meer hondenaccessoires. Snel geleverd in Nederland en België.",
   openGraph: {
     type: "website",
     locale: "nl_NL",
