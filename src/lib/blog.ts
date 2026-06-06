@@ -956,5 +956,3 @@ export const blogPosts: BlogPost[] = [
     `,
   },
 ];
-
-];
