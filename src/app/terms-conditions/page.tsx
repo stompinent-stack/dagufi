@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PolicyPage, PolicySection } from "@/components/ui/PolicyPage";
 
-export const metadata: Metadata = { title: "Algemene voorwaarden" };
+export const metadata: Metadata = { title: "Algemene voorwaarden", description: "Bekijk de algemene voorwaarden van Dagufi." };
 
 export default function TermsPage() {
   return (
