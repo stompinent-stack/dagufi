@@ -4,9 +4,9 @@ import { getAllProducts } from "@/lib/api";
 import { ProductCard } from "@/components/ui/ProductCard";
 
 export const metadata: Metadata = {
-  title: "Shop — Alle producten",
+  title: "Automatische Voerbak Hond met Camera kopen",
   description:
-    "Ontdek de volledige Dagufi collectie premium hondenaccessoires.",
+    "Koop een automatische voerbak voor honden met camera en app-bediening. Altijd op tijd gevoerd, ook als je niet thuis bent. Gratis verzending vanaf €40.",
 };
 
 export const revalidate = 3600;
