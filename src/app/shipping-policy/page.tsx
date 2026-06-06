@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PolicyPage, PolicySection } from "@/components/ui/PolicyPage";
 
-export const metadata: Metadata = { title: "Verzendbeleid" };
+export const metadata: Metadata = { title: "Verzendbeleid — Gratis verzending vanaf €40", description: "Gratis verzending bij Dagufi vanaf €40. Bestellingen voor 22:00 worden de volgende werkdag verstuurd." };
 
 export default function ShippingPolicyPage() {
   return (
